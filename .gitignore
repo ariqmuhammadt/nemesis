@@ -11,10 +11,8 @@ dist/
 dist-ssr/
 
 # Runtime Data (SQLite & JSON Datasets)
-data/dashboard.sqlite
-data/dashboard.sql
-data/dashboard.sqlite-shm
-data/dashboard.sqlite-wal
+data/*
+!data/patch-v1-to-v2.sql
 
 dataset/
 backend/data/
